@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {    
+   
+    background: linear-gradient(-75deg, #111ff0, #fff, #111ff0);
+    font-family: sans-serif;
+    min-height: 100%;
+    
+}
+.geral-nav{
+    width: 100%;
+}
+.favicon img {
+    margin-left: 15px;
+    background-color: #000;
+}
+
+.Navgater {
+    width: 100%;
+    display: flex;    
+    justify-content:space-between;     
+    align-items:center;
+    background-color: #000; 
+    justify-content: end;  
+    text-align: end; 
+}
+.Navgater span {
+    color: #fff;
+    font-size: 1.5em;
+    align-items: flex-start;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    
+}
+
+.Navgater img {
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+.NavigateBar {
+    width: 100%;    
+    right: 70px;  
+}
+
+.NavigateBar a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-align: end;
+}
+
+.Skill {
+    display:flex;
+    text-align: center;
+    width: 100%; 
+    
+}
+
+.apresentação {
+    max-width: 100%;
+    
+}
+
+.Information {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.Skill h2{
+    
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+}
+
+.Skill p {
+   
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
+
+.Information p {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.skil-domination img {
+    width: 45px;
+    height: 45px;
+    border-radius: 70px;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.7);
+    transition: 3s;
+    overflow: hidden;
+}
+
+
+
+.Img-Perfil img {
+    width: 100%;    
+    border-radius: 70px;
+    overflow: hidden;
+   
+}
+
+.portifol {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+}
+
+.portifol h2 {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.7);
+    transition: 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color:#111ff0;
+}
+
+.card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.NavigateBar a:hover{
+    color:#111ff0
+}
+
+.card:hover {
+    transform:scale3d(1.1, 1.1, 1);
+}
+
+.skil-domination img:hover {
+    transform:scale3d(1.2, 1.2, 1);
+    box-shadow: 0px 0px 10px rgba(255, 85, 85, 0.7);
+}
+
+.contact {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.form-contato {
+    width: 800px;
+    height: 400px;
+    background-color: #000;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.form-contato h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 4em;
+    margin-left: 15px;
+}
+.form-contato p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+}
+
+footer p {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 680px){
+    .Navgater {
+        width: 100%;
+        display: flex;    
+        justify-content:space-between;     
+        align-items:center;
+        background-color: #000; 
+        justify-content: end;  
+        text-align: end; 
+    }
+
+
+    body {    
+   
+        background: #fff;
+        
+    }
+
+
+    .Skill {
+        display: grid;
+        text-align: center;
+        width: 100%;     
+        
+    }
+
+    .container {
+    width: 100%;
+    display: inline;
+    justify-content:center;
+    
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.7);
+    transition: 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color:#111ff0;
+}
+
+.card-footer a {
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.NavigateBar a:hover{
+    color:#111ff0
+}
+
+.card:hover {
+    transform:scale3d(1.1, 1.1, 1);
+}
+
+.skil-domination img:hover {
+    transform:scale3d(1.2, 1.2, 1);
+    box-shadow: 0px 0px 10px rgba(255, 85, 85, 0.7);
+}
+
+.contact {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.form-contato {
+    width: 800px;
+    height: 400px;
+    background-color: #000;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.Skill h2{
+    
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+}
+
+.Skill p {
+   
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.form-contato h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 4em;
+    margin-left: 15px;
+}
+.form-contato p {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin-left: 16px;
+}
+
+}
